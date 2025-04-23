@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f8fb;
+    color: #333;
+  }
+  
+  header {
+    background-image: url('images/hospital.jpg');
+    background-size: cover;
+    color: rgb(14, 0, 0);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: rgb(31, 2, 2);
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 3em;
+    background: #e6f0ff;
+  }
+  
+  .btn { 
+    padding: 10px 20px;
+    background-color: #0099cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: rgb(22, 240, 59);
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #ddd;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  }
+  
+  .login-container label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .login-container button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: rgb(187, 240, 182);
+    border: none;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background-color: #33fc43;
+  }
+  
